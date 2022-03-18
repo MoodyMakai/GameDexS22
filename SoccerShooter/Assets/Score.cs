@@ -12,6 +12,6 @@ public class Score : MonoBehaviour
     void Update()
     {
       //  Debug.Log(player.);
-       GetComponent<TMPro.TextMeshProUGUI>().text = player.GetComponent<ball>().Score.ToString();
+       GetComponent<TMPro.TextMeshProUGUI>().text = GameData.Score.ToString();
     }
 }

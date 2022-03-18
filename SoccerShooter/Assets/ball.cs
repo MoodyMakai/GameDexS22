@@ -10,14 +10,7 @@ public class ball : MonoBehaviour
 
  public GameObject bulletPrefab;
 
- public int Score = 0;
-
-
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
+ 
     void Update()
     {
          
@@ -31,8 +24,5 @@ public class ball : MonoBehaviour
          
 
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(Score = +1);
-    }
+    
 }
